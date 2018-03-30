@@ -26,11 +26,12 @@ ChangeLog
          1.1.0
 
    Changes
-         - Make it compatible with TYPO3 6.2.0-8.99.99 (https://forge.typo3.org/issues/84551) Thanks to Jörg Velleti for help.
-		 - Add newest jQuery version v3.3.1, set it to default
-		 - Add jQuery version v3.1.1 (used in actual bootstrap_package). Not really necessary ;-)
-		 - Fix supersized.3.2.7.js to work with newer jQuery
-		 - Update this documentation
+         - Make it compatible with TYPO3 6.2.0-8.99.99 (https://forge.typo3.org/issues/84551) 
+           Thanks to Jörg Velleti for help.
+         - Add newest jQuery version v3.3.1, set it to default
+         - Add jQuery version v3.1.1 (used in actual bootstrap_package). Not really necessary ;-)
+         - Fix supersized.3.2.7.js to work with newer jQuery
+         - Update this documentation
 
 
 .. container:: table-row
