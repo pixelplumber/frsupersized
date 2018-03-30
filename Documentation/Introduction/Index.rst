@@ -24,7 +24,7 @@ What does it do?
 
 This extension implements the jquery supersized plugin - full screen
 background slideshow (http://buildinternet.com/project/supersized/ -
-MIT License / GPL License).
+MIT License / GPL License // Github: https://github.com/buildinternet/supersized).
 
 - Can be used for a full sreen background / background slideshow and a
   background banner / banner slideshow.
@@ -44,10 +44,15 @@ MIT License / GPL License).
 - The extension includes the complete Supersized plugin code v3.2.7,
   which includes the jQuery Library v1.7.2 .
 
-- The Supersized plugin doesn't work properly with jQuery 1.9.0 and newer. Maybe it will work with the jQuery migrate plugin. I haven't test it.
+- The Supersized plugin (from v1.1.0) now works properly even with the
+  newest jQuery Library (v3.3.1 at the moment). Some little modification
+  in the supersized.3.2.7.js were necessary. So the jQuery Library
+  v3.3.1 is included too in this extension and set to default in typoScript.
 
 - Some live demos: `http://demo.frankfrewer.de/supersized/
   <http://demo.frankfrewer.de/supersized/>`_
+
+- frsupersized now on Github: https://github.com/ffrewer/frsupersized
 
 Since v0.2.0 this manual is implemented with ReST (http://wiki.typo3.org/ReST). The documentation file 'manual.sxw' is not provided anymore. The new manual was produced with the sphinx extension - many thanks to the author of this extension, Xavier Perseguers.
 

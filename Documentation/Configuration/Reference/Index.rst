@@ -299,7 +299,7 @@ setting e.g in the constant editor.
          Path to the jQuery file
 
    Default
-         EXT:frsupersized/Resources/Public/Scripts/jquery/1.7.2/jquery-1.7.2.mi
+         EXT:frsupersized/Resources/Public/Scripts/jquery/3.3.1/jquery-3.3.1.mi
          n.js
 
 
@@ -344,7 +344,8 @@ setting e.g in the constant editor.
          string
 
    Description
-         Path to the Supersized javascript file for slideshow
+         Path to the Supersized javascript file for slideshow. This file was 
+		 slightly modified to work with newer jQuery versions too.
 
    Default
          EXT:frsupersized/Resources/Public/Scripts/supersized/supersized-3.2.7/
@@ -1096,7 +1097,7 @@ Here is the whole default configuration of the extension frsupersized:
          cssSlideshowFile = EXT:frsupersized/Resources/Public/Scripts/supersized/supersized-3.2.7/slideshow/css/supersized.css
          cssThemeFile = EXT:frsupersized/Resources/Public/Scripts/supersized/supersized-3.2.7/slideshow/theme/supersized.shutter.css
          jQueryDisable = 0
-         jQueryFile = EXT:frsupersized/Resources/Public/Scripts/jquery/1.7.2/jquery-1.7.2.min.js
+         jQueryFile = EXT:frsupersized/Resources/Public/Scripts/jquery/3.3.1/jquery-3.3.1.min.js
          jQueryEasingFile = EXT:frsupersized/Resources/Public/Scripts/supersized/supersized-3.2.7/slideshow/js/jquery.easing.min.js
          supersizedCoreFile = EXT:frsupersized/Resources/Public/Scripts/supersized/supersized-3.2.7/core/js/supersized.core.3.2.1.min.js
          supersizedSlideshowFile = EXT:frsupersized/Resources/Public/Scripts/supersized/supersized-3.2.7/slideshow/js/supersized.3.2.7.min.js

@@ -5,3 +5,6 @@ This TYPO3 extension implements the jquery supersized plugin - full screen backg
 Fully configurable via TS and Flexform. Can be used for a full sreen background / background slideshow and a background banner / banner slideshow. 
 
 Realized with easy adaptable fluid templates.
+
+## frsupersized on Github:
+https://github.com/ffrewer/frsupersized
