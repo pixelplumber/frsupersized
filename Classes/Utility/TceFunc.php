@@ -87,7 +87,7 @@ class TceFunc {
 				// We have to transform it
 				$formData['parameterArray']['itemFormElValue'] = [];
 				$formData['parameterArray']['itemFormElValue'][0] = $params['itemFormElValue'];
-				$formData['renderType'] = 'selectSingleBox';
+				$formData['renderType'] = 'selectSingle';
 				$formData['inlineStructure'] = [];
 				$formResult = $nodeFactory->create($formData)->render();
 			} else {
