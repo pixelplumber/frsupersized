@@ -87,7 +87,7 @@ class TceFunc {
 				// We have to transform it
 				$formData['parameterArray']['itemFormElValue'] = [];
 				$formData['parameterArray']['itemFormElValue'][0] = $params['itemFormElValue'];
-				$formData['renderType'] = 'select';
+				$formData['renderType'] = 'selectSingle';
 				$formData['inlineStructure'] = [];
 				$formResult = $nodeFactory->create($formData)->render();
 			} else {
@@ -95,6 +95,9 @@ class TceFunc {
 				$params['itemFormElValue'] = (is_numeric($params['itemFormElValue']) && $params['itemFormElValue'] != 2 ? $params['itemFormElValue'] : $conf['checked']);
 				$params['fieldConf']['config'] = [
 						'type' => 'check',
+						'items' => array(
+								[$this->getLanguageService()->sL('LLL:EXT:frsupersized/Resources/Private/Language/locallang.xlf:tt_content.pi_flexform.yes'), 1],
+						),
 				];
 				$formData['parameterArray'] = $params;
 				$formData['renderType'] = 'check';
